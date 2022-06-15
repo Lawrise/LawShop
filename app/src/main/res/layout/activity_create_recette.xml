@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lawshop2.CreateRecetteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/retour"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nouvelle Recette"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="créer"
+            android:layout_gravity="end"
+            android:gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre de la recette :"
+        android:paddingLeft="@dimen/medium_margin"/>
+    <EditText
+        android:id="@+id/create_title_edit_text"
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/medium_margin"
+        android:layout_height="40dp"
+        android:textSize="@dimen/default_text_size"
+        android:hint="Nom de la recette"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:inputType="textMultiLine"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrédient :"
+        android:paddingLeft="@dimen/medium_margin"/>
+    <ListView
+        android:id="@+id/list_ingredient_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/medium_margin"/>
+    <TextView
+        android:id="@+id/ajout_ingredient"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nom_recette"
+        android:layout_marginLeft="16dp"
+        android:background="@color/beige"
+        android:paddingLeft="@dimen/medium_margin"
+        android:paddingRight="10dp"
+        android:text="AJOUTER INGREDIENT"
+        android:textSize="@dimen/size_text_btn"
+        android:textAlignment="center"/>
+</LinearLayout>

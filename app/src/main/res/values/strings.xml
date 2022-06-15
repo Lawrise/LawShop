@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LawShop</string>
+    <string name="error_happened">Une erreur s\'est produite !</string>
+    <string name="saved">Enregistré</string>
+
+    <string name="retour">Retour</string>
+    <!-- Bottom navigation barre -->
+    <string name="bottom_navigation_menu_semaine">Semaine</string>
+    <string name="bottom_navigation_menu_liste">Liste</string>
+    <string name="bottom_navigation_menu_recette">Recette</string>
+    <string name="bottom_navigation_menu_ingredient">"Ingrédient</string>
+    <string name="name_default_recette">nom recette</string>
+    <string name="price_default_recette">0 €</string>
+</resources>

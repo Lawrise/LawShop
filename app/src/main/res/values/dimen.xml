@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextViews -->
+    <dimen name="size_text_title">25sp</dimen>
+    <dimen name="size_text_description">20sp</dimen>
+    <dimen name="size_text_btn">12sp</dimen>
+    <!-- Images -->
+    <dimen name="size_image_height">40dip</dimen>
+    <dimen name="size_image_width">40dip</dimen>
+
+    <dimen name="normal_margin">5dp</dimen>
+    <dimen name="medium_margin">10dp</dimen>
+    <dimen name="large_margin">22dp</dimen>
+    <dimen name="very_large_margin">35dp</dimen>
+    <dimen name="center_margin">65dp</dimen>
+
+</resources>

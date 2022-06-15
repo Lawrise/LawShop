@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/large_margin"
+    android:padding="@dimen/large_margin">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/puce"/>
+    <TextView
+        android:id="@+id/nom_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ingredient"
+        android:layout_marginLeft="@dimen/large_margin"/>
+    <TextView
+        android:id="@+id/nbr_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="x1"
+        android:layout_marginLeft="@dimen/normal_margin"/>
+    <ImageView
+        android:id="@+id/img_categorie"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/img_fruit"
+        android:layout_gravity="end"
+        android:layout_marginLeft="@dimen/large_margin"/>
+
+</LinearLayout>
